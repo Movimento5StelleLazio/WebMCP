@@ -46,7 +46,7 @@ function ui.paginate(args)
         params[name] = page
         local attr = {}
         if current_page == page then
-          attr.class = "active"
+          attr.class = "page-active"
         end
         local partial
         if ui.is_partial_loading_enabled() then
